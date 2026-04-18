@@ -9,7 +9,7 @@ import CourseList from './pages/Course/CourseList';
 import CourseDetail from './pages/Course/CourseDetail';
 import ActivityPage from './pages/Activity/ActivityPage';
 import './App.css';
-
+//comments
 export default function App() {
   return (
     <AuthProvider>
