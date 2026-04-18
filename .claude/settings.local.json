@@ -7,7 +7,9 @@
       "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS rev-parse HEAD)",
       "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS rev-parse origin/main)",
       "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS commit --allow-empty -m \"chore: trigger Vercel rebuild with frontend root + VITE_API_URL\")",
-      "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS push)"
+      "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS push)",
+      "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS add backend/src/server.js)",
+      "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS commit -m \"Auto-seed database on startup when empty\")"
     ]
   }
 }
