@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS status --short)",
+      "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS log --oneline -5)",
+      "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS log origin/main..HEAD --oneline)",
+      "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS rev-parse HEAD)",
+      "Bash(git -C c:/Users/wajah/Desktop/NextSkill-LMS rev-parse origin/main)"
+    ]
+  }
+}
