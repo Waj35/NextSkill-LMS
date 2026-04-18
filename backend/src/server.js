@@ -23,6 +23,13 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
+const db = require('./config/database');
+const userCount = db.prepare('SELECT COUNT(*) as c FROM users').get().c;
+if (userCount === 0) {
+  console.log('Empty database detected — running seed...');
+  require('./seeds/seed');
+}
+
 app.listen(PORT, () => {
   console.log(`🚀 LMS Backend running on http://localhost:${PORT}`);
 });
